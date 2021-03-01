@@ -20,7 +20,7 @@ This particular database contains 3 models:
 To install this project on your machine follow this steps:
 - Download a clone locally ```git clone https://github.com/greg0109/micro-reddit```
 - Enter the project folder ```cd micro-reddit```
-- Download the proper branch ```git checkout reddit```
+- Download the proper branch ```git checkout micro-reddit```
 - Install the necessary gems ```bundle install```
 - Migrate the database ```rails db:migrate```
 - Open the rails console ```rails console```
