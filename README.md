@@ -1,24 +1,54 @@
-# README
+# Micro-Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project helps us understand how rails databases work and how we can relate one database with another in order to use them in tandem.
+This particular database contains 3 models:
+- Users
+- Posts
+- Comments
 
-Things you may want to cover:
+# Screenshot
 
-* Ruby version
+![Screenshot](app/assets/images/Screenshot.png)
 
-* System dependencies
+# Build With
 
-* Configuration
+- Ruby
+- Rails
 
-* Database creation
+# Getting Started
 
-* Database initialization
+To install this project on your machine follow this steps:
+- Download a clone locally ```git clone https://github.com/greg0109/micro-reddit```
+- Enter the project folder ```cd micro-reddit```
+- Download the proper branch ```git checkout reddit```
+- Install the necessary gems ```bundle install```
+- Migrate the database ```rails db:migrate```
+- Open the rails console ```rails console```
+- You can now create the instances of User, posts and comments
 
-* How to run the test suite
+# Authors
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 Gregorio Rábago Sainz
 
-* Deployment instructions
+- GitHub: [@Greg0109](https://github.com/greg0109)
+- Twitter: [@Greg_0109](https://twitter.com/greg_0109)
 
-* ...
+👤 Salley Iddrisu
+
+- GitHub: [@juxsalley](https://github.com/juxsalley)
+- Twitter: [@__salley](https://twitter.com/__salley)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/greg0109/micro-reddit/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
+
